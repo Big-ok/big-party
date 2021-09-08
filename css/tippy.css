@@ -1,0 +1,19 @@
+.tippy-box {
+    background-color: #5C5CAD;
+    color: #fff;
+}
+
+.tippy-arrow {
+    color: #5C5CAD;
+}
+
+.tippy-img {
+    width: 220px;
+  }
+
+@media (min-width: 440px) {
+.tippy-img {
+    width: 300px;
+  }
+
+}

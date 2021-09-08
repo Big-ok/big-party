@@ -1,0 +1,155 @@
+/** Footer **/
+.footer {
+    /*padding: 100px 40px 20px;*/
+    padding: 0;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background: #1D1A30;
+    overflow: hidden;
+
+    background: #ff00cc;
+    background: -webkit-gradient(linear, left top, right top, from(#333399), to(#ff00cc));
+    background: linear-gradient(to right, #333399, #ff00cc);
+}
+
+.footer p,
+.footer__phone-contac {
+    color: #FFF;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer__phone-contac {
+    text-decoration: none;
+    top: 10px;
+    position: relative;
+    font-size: 18px;
+}
+
+.footer__menu {
+    text-transform: none;
+    padding: 20px 10%;
+}
+
+.footer .waves {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*
+@media screen and (min-width: 480px) {
+    footer {
+        padding: 20px 40px;
+    }
+}
+*/
+
+
+
+.footer__logo::after {
+    content: "";
+    width: 80px;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    right: 10%;
+    top: -100px;
+}
+
+.footer__menu {
+    position: relative;
+}
+
+
+.footer__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 40px auto;
+    line-height: 1.7em;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-size: 16.8px;
+    position: relative;
+}
+
+.footer__menu div {
+    margin: 0 15px;
+    width: 100%;
+}
+
+.footer__menu p {
+    margin: 0 0 25px;
+}
+
+.footer__menu div ol {
+    margin: 0 45px;
+}
+
+.footer__menu h3 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.footer__menu ul {
+    padding-left: 10px
+}
+
+.footer__menu li {
+    list-style: none;
+}
+
+.footer__menu li a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dashed #fff;
+}
+
+.footer__menu li a:hover {
+    text-shadow: 0 0 10px azure, 0 0 20px cyan, 0 0 40px #1e90ff, 0 0 80px blue;
+}
+
+@media screen and (min-width: 480px) {
+    .footer__logo:after {
+        top: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .footer__menu {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+
+    .footer__menu div {
+        margin: 0 25px;
+        width: calc((100% - 50px) / 3);
+    }
+
+    .footer__menu div ol {
+        margin: 0 5px;
+    }
+
+    .main-content section:not(:first-child) {
+        padding: 0 45px;
+    }
+}
