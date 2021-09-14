@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: http://www.goldrussian.ru/sitemap.xml
+Sitemap: https://big-party.ru/sitemap.xml
