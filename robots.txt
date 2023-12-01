@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://big-party.ru/sitemap.xml
+Disallow: /
