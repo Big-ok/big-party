@@ -1,2 +1,6 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /503/
+Disallow: /404/
+Host: https://big-party.ru/
+Sitemap: https://big-party.ru/sitemap.xml
