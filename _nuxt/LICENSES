@@ -1,37 +1,13 @@
 /*!
- * Isotope v3.0.6
- *
- * Licensed GPLv3 for open source use
- * or Isotope Commercial License for commercial use
- *
- * https://isotope.metafizzy.co
- * Copyright 2010-2018 Metafizzy
+ * Vue.js v2.7.14
+ * (c) 2014-2022 Evan You
+ * Released under the MIT License.
  */
 
 /*!
- * Masonry layout mode
- * sub-classes Masonry
- * https://masonry.desandro.com
- */
-
-/*!
- * Masonry v4.2.2
- * Cascading grid layout library
- * https://masonry.desandro.com
- * MIT License
- * by David DeSandro
- */
-
-/*!
- * Outlayer v2.1.1
- * the brains and guts of a layout library
- * MIT license
- */
-
-/*!
- * getSize v2.0.3
- * measure size of elements
- * MIT license
+ * vuex v3.6.2
+ * (c) 2021 Evan You
+ * @license MIT
  */
 
 
@@ -94,6 +70,43 @@
 
 
 /*!
+ * Isotope v3.0.6
+ *
+ * Licensed GPLv3 for open source use
+ * or Isotope Commercial License for commercial use
+ *
+ * https://isotope.metafizzy.co
+ * Copyright 2010-2018 Metafizzy
+ */
+
+/*!
+ * Masonry layout mode
+ * sub-classes Masonry
+ * https://masonry.desandro.com
+ */
+
+/*!
+ * Masonry v4.2.2
+ * Cascading grid layout library
+ * https://masonry.desandro.com
+ * MIT License
+ * by David DeSandro
+ */
+
+/*!
+ * Outlayer v2.1.1
+ * the brains and guts of a layout library
+ * MIT license
+ */
+
+/*!
+ * getSize v2.0.3
+ * measure size of elements
+ * MIT license
+ */
+
+
+/*!
   Copyright (c) 2018 Jed Watson.
   Licensed under the MIT License (MIT), see
   http://jedwatson.github.io/classnames
@@ -113,16 +126,3 @@ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
-
-
-/*!
- * Vue.js v2.7.14
- * (c) 2014-2022 Evan You
- * Released under the MIT License.
- */
-
-/*!
- * vuex v3.6.2
- * (c) 2021 Evan You
- * @license MIT
- */
